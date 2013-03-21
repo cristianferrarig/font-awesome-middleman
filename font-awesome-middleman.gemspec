@@ -6,10 +6,10 @@ require 'font-awesome-middleman/version'
 Gem::Specification.new do |gem|
   gem.name          = "font-awesome-middleman"
   gem.version       = Font::Awesome::Middleman::VERSION
-  gem.authors       = ["Cristian Ferrari"]
-  gem.email         = ["cristianferrarig@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Cristian Ferrari, Miguel Michelson"]
+  gem.email         = ["cristianferrarig@gmail.com, miguelmichelson@gmail.com"]
+  gem.description   = %q{font-awesome-middleman provides the Font-Awesome web fonts and stylesheets as a Middleman engine.}
+  gem.summary       = %q{Font-Awesome web fonts and stylesheets as a Middleman engine}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
