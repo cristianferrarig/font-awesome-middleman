@@ -1,5 +1,7 @@
 # Font::Awesome::Middleman
 
+Font Awesome v. 3.2.1
+
 TODO: Write a gem description
 
 ## Installation
