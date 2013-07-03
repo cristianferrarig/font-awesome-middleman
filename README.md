@@ -41,15 +41,14 @@ If you need change some of these variables, make it before to `@import "font-awe
     $font-awesome-enable-ie7-support:         false !default;
     $font-awesome-enable-utilities-classes:   true !default;
     $font-awesome-enable-extras-classes:      true !default;
-    @import "font-awesome";
 
 ### Not using Bootstrap?
-You can set the `$font-awesome-enable-bootstrap-support` variable to `false` to disable bootstrap styles and classes.
+If you need disable bootstrap styles and classes. Add this:
 
     $font-awesome-enable-bootstrap-support: false;
 
 ### Need IE7 Support?
-Font Awesome supports IE7. If you need it, you can set the `$font-awesome-enable-ie7-support` to `true`.
+Font Awesome supports IE7. If you need it, add this.
 
     $font-awesome-enable-ie7-support: true;
 
