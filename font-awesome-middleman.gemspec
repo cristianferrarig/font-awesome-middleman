@@ -19,7 +19,6 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency(%q<middleman>,           ["~> 3.0.0"])
 
-  # s.add_development_dependency(%q<bundler>,         ["~> 1.0.14"])
   gem.add_development_dependency(%q<bundler>,         ["~> 1.1"])
   gem.add_development_dependency(%q<rspec>,           ["~> 2.6.0"])
 end

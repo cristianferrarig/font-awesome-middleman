@@ -1,8 +1,9 @@
-# Font::Awesome::Middleman
+# Font-Awesome Middleman
+Font-Awesome web fonts and stylesheets as a Middleman engine
 
 Font Awesome v. 3.2.1
 
-TODO: Write a gem description
+
 
 ## Installation
 
@@ -10,7 +11,7 @@ Add this line to your application's Gemfile:
 
     gem 'font-awesome-middleman'
 
-And then execute:
+And then run:
 
     $ bundle
 
@@ -18,9 +19,57 @@ Or install it yourself as:
 
     $ gem install font-awesome-middleman
 
+
+
 ## Usage
 
-TODO: Write usage instructions here
+### Import font-awesome
+Use this method to use Font Awesome in your middleman project.
+
+    @import "font-awesome";
+
+You don't have to set the `@FontAwesomePath` variable, because we are using the `font-url()` middleman helper.
+
+Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like this:
+
+    set :fonts_dir,  "fonts-folder"
+
+### Default variables
+If you need change some of these variables, make it before to `@import "font-awesome"`
+
+    $font-awesome-enable-bootstrap-support:   true !default;
+    $font-awesome-enable-ie7-support:         false !default;
+    $font-awesome-enable-utilities-classes:   true !default;
+    $font-awesome-enable-extras-classes:      true !default;
+    @import "font-awesome";
+
+### Not using Bootstrap?
+You can set the `$font-awesome-enable-bootstrap-support` variable to `false` to disable bootstrap styles and classes.
+
+    $font-awesome-enable-bootstrap-support: false;
+
+### Need IE7 Support?
+Font Awesome supports IE7. If you need it, you can set the `$font-awesome-enable-ie7-support` to `true`.
+
+    $font-awesome-enable-ie7-support: true;
+
+### Don't need utilities classes?
+Font Awesome have utilities classes like `.icon-border .icon-2x ...` or extras classes like `.icon-spin .icon-rotate-90 ...`
+If you dont need it, you can set the next variables to false.
+
+    $font-awesome-enable-utilities-classes: false;
+    $font-awesome-enable-extras-classes: false;
+
+
+
+## Author
+
+**Cristian Ferrari**
+[https://github.com/cristianferrarig](https://github.com/cristianferrarig)
+
+Special thanks to [Miguel Michelson](https://github.com/cristianferrarig) for explain and help me to create this Gem.
+
+
 
 ## Contributing
 
