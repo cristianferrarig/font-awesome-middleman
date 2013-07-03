@@ -1,5 +1,5 @@
 # Font-Awesome Middleman
-Font-Awesome web fonts and stylesheets as a Middleman engine
+**font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine
 
 Font Awesome v. 3.2.1
 
