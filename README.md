@@ -28,11 +28,32 @@ Use this method to use Font Awesome in your middleman project.
 
     @import "font-awesome";
 
-You don't have to set the `@FontAwesomePath` variable, because we are using the `font-url()` middleman helper.
+You don't have to set the `$fa-font-path` variable, because we are using the `font-url()` middleman helper.
 
 Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like this:
 
     set :fonts_dir,  "fonts-folder"
+
+
+
+### Default Variable
+If you need change some of these variables, make it before to `@import "font-awesome"`
+
+    $fa-css-prefix:       fa !default;
+    $fa-border-color:     #eee !default;
+    $fa-inverse:          #fff !default;
+    $fa-li-width:         (30em / 14) !default;
+    $fa-enable-utilities: true !default;
+
+
+
+### Don't need utilities classes?
+Font Awesome have utilities classes like `.fa-border .fa-2x .fa-spin .fa-rotate-90 ...`
+If you dont need it, add the next variable before to `@import "font-awesome"`
+
+    $fa-enable-utilities: false;
+
+
 
 ### Need IE7 Support?
 If you need IE7 support, you have my condolences. Really. Font Awesome 4.0.3 doesn't support IE7, but an older version does. You'll need to check out the 3.2.1 instructions for using IE7. Then go complain to whomever decided your project needs IE7 support.
