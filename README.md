@@ -1,7 +1,7 @@
 # Font-Awesome Middleman
 **font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine
 
-Font Awesome v. 3.2.1
+Font Awesome v. 4.0.3
 
 
 
@@ -34,30 +34,8 @@ Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like th
 
     set :fonts_dir,  "fonts-folder"
 
-### Default variables
-If you need change some of these variables, make it before to `@import "font-awesome"`
-
-    $font-awesome-enable-bootstrap-support:   true !default;
-    $font-awesome-enable-ie7-support:         false !default;
-    $font-awesome-enable-utilities-classes:   true !default;
-    $font-awesome-enable-extras-classes:      true !default;
-
-### Not using Bootstrap?
-If you need disable bootstrap styles and classes. Add this:
-
-    $font-awesome-enable-bootstrap-support: false;
-
 ### Need IE7 Support?
-Font Awesome supports IE7. If you need it, add this.
-
-    $font-awesome-enable-ie7-support: true;
-
-### Don't need utilities classes?
-Font Awesome have utilities classes like `.icon-border .icon-2x ...` or extras classes like `.icon-spin .icon-rotate-90 ...`
-If you dont need it, you can set the next variables to false.
-
-    $font-awesome-enable-utilities-classes: false;
-    $font-awesome-enable-extras-classes: false;
+If you need IE7 support, you have my condolences. Really. Font Awesome 4.0.3 doesn't support IE7, but an older version does. You'll need to check out the 3.2.1 instructions for using IE7. Then go complain to whomever decided your project needs IE7 support.
 
 
 
