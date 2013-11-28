@@ -1,7 +1,7 @@
 module Font
   module Awesome
     module Middleman
-      VERSION = "1.0.1"
+      VERSION = "4.0.3"
     end
   end
 end
