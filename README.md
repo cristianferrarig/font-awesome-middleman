@@ -1,8 +1,9 @@
 # Font-Awesome Middleman
-**font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine
+**font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine.
 
-Font Awesome v. 4.0.3
+Font Awesome v. 4.1.0
 
+Get started at http://fontawesome.io!
 
 
 ## Installation
@@ -43,6 +44,7 @@ If you need change some of these variables, make it before to `@import "font-awe
     $fa-border-color:     #eee !default;
     $fa-inverse:          #fff !default;
     $fa-li-width:         (30em / 14) !default;
+
     $fa-enable-utilities: true !default;
 
 
