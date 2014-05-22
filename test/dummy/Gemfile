@@ -3,9 +3,4 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~> 3.3.2"
-gem 'middleman-sprockets', '~> 3.3.3'
-
-gem 'haml', '~> 4.0.5'
-gem 'sass', '~> 3.3.6'
-
 gem "font-awesome-middleman", path: "../../../font-awesome-middleman"
