@@ -1,10 +1,6 @@
-@if $fa-enable-utilities != false {
-
-  // Fixed Width Icons
-  // -------------------------
-  .#{$fa-css-prefix}-fw {
-    width: (18em / 14);
-    text-align: center;
-  }
-
+// Fixed Width Icons
+// -------------------------
+.#{$fa-css-prefix}-fw {
+  width: (18em / 14);
+  text-align: center;
 }
