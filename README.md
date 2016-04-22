@@ -33,7 +33,7 @@ You don't have to set the `$fa-font-path` variable, because we are using the `fo
 
 Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like this:
 
-    set :fonts_dir,  "fonts-folder"
+    set :fonts_dir,  "fonts"
 
 
 
