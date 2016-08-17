@@ -1,0 +1,7 @@
+# If you have OpenSSL installed, we recommend updating
+# the following line to use "https"
+source 'http://rubygems.org'
+
+gem 'middleman', '~> 4.1', '>= 4.1.10'
+gem 'middleman-sprockets', '~> 4.0'
+gem "font-awesome-middleman", path: "../../../font-awesome-middleman"

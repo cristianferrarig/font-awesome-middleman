@@ -4,7 +4,6 @@
 @import "font-awesome";
 
 body {
-  background: #d4d4d4 image-url("background.png");
   text-align: center;
   font-family: sans-serif;
 }
@@ -16,7 +15,6 @@ h1 {
   letter-spacing: -1px;
   text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: image-url("middleman.png") no-repeat center 100px;
   padding: 350px 0 10px;
   margin: 0;
 }

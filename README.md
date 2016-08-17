@@ -1,7 +1,7 @@
 # Font-Awesome Middleman
 **font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine.
 
-Font Awesome v. 4.5.0
+Font Awesome v. 4.6.3
 
 Get started at http://fontawesome.io!
 
@@ -36,16 +36,30 @@ Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like th
     set :fonts_dir,  "fonts"
 
 
+### Using Middleman 4?
+
+A simple way to use **font-awesome-middleman** with Middleman 4 is adding the **middleman-sprockets** gem in your gemfile
+
+    gem 'middleman-sprockets', '~> 4.0'
+
+And then you need to activate Sprockets in your config file:
+
+    activate :sprockets
+
+If you know a better way to do that, please open an issue :)
+
 
 ### Default Variable
 If you need change some of these variables, make it before to `@import "font-awesome"`
 
     $fa-css-prefix:       fa !default;
+    $fa-enable-utilities: true !default;
+
+    $fa-font-size-base:   14px !default;
+    $fa-line-height-base: 1 !default;
     $fa-border-color:     #eee !default;
     $fa-inverse:          #fff !default;
     $fa-li-width:         (30em / 14) !default;
-
-    $fa-enable-utilities: true !default;
 
 
 

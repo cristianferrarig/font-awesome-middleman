@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import "normalize";
+@import "font-awesome";
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  padding: 350px 0 10px;
+  margin: 0;
+}
+
+.doc {
+  font-size: 14px;
+  margin: 0;
+  &:before,
+  &:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•";
+  }
+  a {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  a:hover {
+    color: #666;
+  }
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    transform: scale(1.03);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+  }
+}
