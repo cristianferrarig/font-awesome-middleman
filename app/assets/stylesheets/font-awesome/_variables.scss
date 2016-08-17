@@ -3,10 +3,16 @@ $fa-enable-utilities: true !default;
 // Variables
 // --------------------------
 
-$fa-font-path:        "../fonts" !default;
+// You don't have to set the `$fa-font-path` variable,
+// because we are using the `font-url()` middleman helper.
+// $fa-font-path: "../fonts" !default;
+//
+// Make sure to define `:fonts_dir` on your config.rb
+// file if you need. Like this:
+// set :fonts_dir, "fonts"
+
 $fa-font-size-base:   14px !default;
 $fa-line-height-base: 1 !default;
-//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.5.0/fonts" !default; // for referencing Bootstrap CDN font files directly
 $fa-css-prefix:       fa !default;
 $fa-version:          "4.5.0" !default;
 $fa-border-color:     #eee !default;

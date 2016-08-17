@@ -36,6 +36,18 @@ Make sure to define `:fonts_dir` on your **config.rb** file if you need. Like th
     set :fonts_dir,  "fonts"
 
 
+### Using Middleman 4?
+
+A simple way to use **font-awesome-middleman** with Middleman 4 is adding the **middleman-sprockets** gem in your gemfile
+
+    gem 'middleman-sprockets', '~> 4.0'
+
+And then you need to activate Sprockets in your config file:
+
+    activate :sprockets
+
+If you know a better way to do that, please open an issue :)
+
 
 ### Default Variable
 If you need change some of these variables, make it before to `@import "font-awesome"`
