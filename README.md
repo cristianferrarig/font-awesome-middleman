@@ -1,7 +1,7 @@
 # Font-Awesome Middleman
 **font-awesome-middleman** provides the Font-Awesome web fonts and stylesheets as a Middleman engine.
 
-Font Awesome v. 4.5.0
+Font Awesome v. 4.7.0
 
 Get started at http://fontawesome.io!
 
